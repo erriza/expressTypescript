@@ -1,0 +1,40 @@
+{
+  "devDependencies": {
+    "@types/express": "^4.17.21",
+    "@typescript-eslint/eslint-plugin": "^6.15.0",
+    "@typescript-eslint/parser": "^6.15.0",
+    "eslint": "^8.56.0",
+    "ts-node": "^10.9.2",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.3.3"
+  },
+  "scripts": {
+    "start": "ts-node index.ts",
+    "dev": "ts-node-dev ./src/index.ts",
+    "ts-node": "ts-node",
+    "multiply": "ts-node multiplier.ts",
+    "calculate": "ts-node calculator.ts",
+    "bmi": "ts-node calculateBmi.ts",
+    "hours": "ts-node exerciseCalculator.ts",
+    "lint": "eslint --ext .ts .",
+    "tsc": "tsc"
+  },
+  "name": "part8",
+  "version": "1.0.0",
+  "main": "index.ts",
+  "dependencies": {
+    "acorn": "^8.11.2",
+    "acorn-walk": "^8.3.1",
+    "arg": "^4.1.3",
+    "create-require": "^1.1.1",
+    "diff": "^4.0.2",
+    "express": "^4.18.2",
+    "make-error": "^1.3.6",
+    "undici-types": "^5.26.5",
+    "v8-compile-cache-lib": "^3.0.1",
+    "yn": "^3.1.1"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
