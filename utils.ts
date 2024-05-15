@@ -46,7 +46,7 @@ const isDate = (date: string): boolean => {
 //Valida Wather es de tipo Weather
 const parseWeather = (weather: unknown): Weather => {
     if(!weather || !isString(weather) || !isWeather(weather)) {
-        throw new Error('Incorrect or missing weather' + weather);
+        throw new Error('Incorrect or missing weather: ' + weather);
     }
     return weather;
 };
